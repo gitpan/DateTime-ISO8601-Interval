@@ -1,0 +1,32 @@
+---
+abstract: 'Fill me in.'
+author:
+  - 'Brian Phillips <bphillips@cpan.org>'
+build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
+  perl: 5.006
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DateTime-ISO8601-Interval
+requires:
+  Carp: 0
+  DateTime::Duration: 0
+  DateTime::Format::ISO8601: 0
+  Params::Validate: 0
+  overload: 0
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: https://github.com/brianphillips/DateTime-ISO8601-Interval/issues
+  repository: git://github.com/brianphillips/DateTime-ISO8601-Interval.git
+version: 0.001
+x_authority: cpan:BPHILLIPS

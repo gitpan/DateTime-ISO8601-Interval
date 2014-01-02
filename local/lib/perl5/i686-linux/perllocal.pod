@@ -1,0 +1,1144 @@
+=head2 Wed Dec 11 12:00:08 2013: C<Module> L<Devel::FindPerl|Devel::FindPerl>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.012>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:00:09 2013: C<Module> L<Module::Path|Module::Path>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.09>
+
+=item *
+
+C<EXE_FILES: bin/mpath>
+
+=back
+
+=head2 Wed Dec 11 12:00:12 2013: C<Module> L<Perl::PrereqScanner|Perl::PrereqScanner>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.018>
+
+=item *
+
+C<EXE_FILES: bin/scan-perl-prereqs bin/scan_prereqs>
+
+=back
+
+=head2 Wed Dec 11 12:00:14 2013: C<Module> L<Test::FailWarnings|Test::FailWarnings>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.008>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:00:15 2013: C<Module> L<Mixin::Linewise|Mixin::Linewise>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.102>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:00:17 2013: C<Module> L<Data::Section|Data::Section>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.200005>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:00:21 2013: C<Module> L<Cwd|Cwd>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.40>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:00:23 2013: C<Module> L<Path::Tiny|Path::Tiny>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.047>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:00:26 2013: C<Module> L<Getopt::Long|Getopt::Long>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.42>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:00:28 2013: C<Module> L<App::Cmd|App::Cmd>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.323>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:00:31 2013: C<Module> L<CPAN::Uploader|CPAN::Uploader>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.103004>
+
+=item *
+
+C<EXE_FILES: bin/cpan-upload>
+
+=back
+
+=head2 Wed Dec 11 12:00:32 2013: C<Module> L<Term::Encoding|Term::Encoding>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:01:10 2013: C<Module> L<Dist::Zilla|Dist::Zilla>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 5.006>
+
+=item *
+
+C<EXE_FILES: bin/dzil>
+
+=back
+
+=head2 Wed Dec 11 12:01:15 2013: C<Module> L<Dist::Zilla::Plugin::CheckChangesHasContent|Dist::Zilla::Plugin::CheckChangesHasContent>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.006>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:01:26 2013: C<Module> L<List::Util|List::Util>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.35>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:01:28 2013: C<Module> L<CPAN::Meta|CPAN::Meta>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.133380>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:01:29 2013: C<Module> L<CPAN::Meta::Check|CPAN::Meta::Check>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.008>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:01:29 2013: C<Module> L<Test::CheckDeps|Test::CheckDeps>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.010>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:01:31 2013: C<Module> L<Dist::Zilla::Plugin::Config::Git|Dist::Zilla::Plugin::Config::Git>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.92>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:01:59 2013: C<Module> L<Dist::Zilla::Plugin::GitHub|Dist::Zilla::Plugin::GitHub>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.36>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:02:07 2013: C<Module> L<String::Truncate|String::Truncate>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.100601>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:02:13 2013: C<Module> L<Pod::Elemental|Pod::Elemental>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.102364>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:02:15 2013: C<Module> L<Pod::Elemental::PerlMunger|Pod::Elemental::PerlMunger>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.093333>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:02:24 2013: C<Module> L<Pod::Weaver|Pod::Weaver>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 4.004>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:02:26 2013: C<Module> L<Dist::Zilla::Plugin::PodWeaver|Dist::Zilla::Plugin::PodWeaver>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 4.002>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:02:37 2013: C<Module> L<Pod::Simple|Pod::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.28>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:02:38 2013: C<Module> L<Dist::Zilla::Plugin::ReadmeFromPod|Dist::Zilla::Plugin::ReadmeFromPod>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.21>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:02:43 2013: C<Module> L<Pod::Markdown|Pod::Markdown>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.500>
+
+=item *
+
+C<EXE_FILES: bin/pod2markdown>
+
+=back
+
+=head2 Wed Dec 11 12:02:44 2013: C<Module> L<IO::Stringy|IO::Stringy>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.110>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:00 2013: C<Module> L<Test::Harness|Test::Harness>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.30>
+
+=item *
+
+C<EXE_FILES: bin/prove>
+
+=back
+
+=head2 Wed Dec 11 12:03:02 2013: C<Module> L<ExtUtils::Helpers|ExtUtils::Helpers>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.021>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:04 2013: C<Module> L<ExtUtils::Config|ExtUtils::Config>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.007>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:05 2013: C<Module> L<ExtUtils::InstallPaths|ExtUtils::InstallPaths>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.010>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:20 2013: C<Module> L<Dist::Zilla::Plugin::ReadmeAnyFromPod|Dist::Zilla::Plugin::ReadmeAnyFromPod>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.133360>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:22 2013: C<Module> L<Dist::Zilla::Plugin::ReadmeMarkdownFromPod|Dist::Zilla::Plugin::ReadmeMarkdownFromPod>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.120120>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:27 2013: C<Module> L<Module::CoreList|Module::CoreList>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.01>
+
+=item *
+
+C<EXE_FILES: corelist>
+
+=back
+
+=head2 Wed Dec 11 12:03:29 2013: C<Module> L<Exporter::Lite|Exporter::Lite>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:30 2013: C<Module> L<Test::Deep::JSON|Test::Deep::JSON>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:35 2013: C<Module> L<File::Find::Rule::Perl|File::Find::Rule::Perl>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.13>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:46 2013: C<Module> L<B::Keywords|B::Keywords>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.13>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:03:56 2013: C<Module> L<Class::Tiny|Class::Tiny>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.014>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:04:45 2013: C<Module> L<Test::Simple|Test::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.001002>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:04:56 2013: C<Module> L<Pod::Spell|Pod::Spell>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.13>
+
+=item *
+
+C<EXE_FILES: bin/podspell>
+
+=back
+
+=head2 Wed Dec 11 12:04:59 2013: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20130922>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
+=head2 Wed Dec 11 12:05:00 2013: C<Module> L<String::Format|String::Format>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.17>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:05:05 2013: C<Module> L<Email::Address|Email::Address>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.900>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 11 12:05:58 2013: C<Module> L<Perl::MinimumVersion|Perl::MinimumVersion>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.32>
+
+=item *
+
+C<EXE_FILES: script/perlver>
+
+=back
+
+=head2 Wed Dec 11 12:05:59 2013: C<Module> L<Test::MinimumVersion|Test::MinimumVersion>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.101081>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Jan  2 16:20:44 2014: C<Module> L<Devel::Symdump|Devel::Symdump>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.11>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Jan  2 16:20:45 2014: C<Module> L<Pod::Coverage|Pod::Coverage>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.23>
+
+=item *
+
+C<EXE_FILES: bin/pod_cover>
+
+=back
+
+=head2 Thu Jan  2 16:20:47 2014: C<Module> L<Test::Pod::Coverage|Test::Pod::Coverage>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu Jan  2 16:28:07 2014: C<Module> L<Pod::Coverage::TrustPod|Pod::Coverage::TrustPod>
+
+=over 4
+
+=item *
+
+C<installed into: /home/bphillips/code/DateTime-ISO8601-Interval/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.100003>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
