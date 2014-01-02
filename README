@@ -2,7 +2,7 @@ NAME
     DateTime::ISO8601::Interval - Fill me in.
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
             my $interval = DateTime::ISO8601::Interval->parse("2013-12-01/15");

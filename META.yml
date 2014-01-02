@@ -27,6 +27,7 @@ requires:
   warnings: 0
 resources:
   bugtracker: https://github.com/brianphillips/DateTime-ISO8601-Interval/issues
+  homepage: http://search.cpan.org/dist/DateTime-ISO8601-Interval/
   repository: git://github.com/brianphillips/DateTime-ISO8601-Interval.git
-version: 0.001
+version: 0.002
 x_authority: cpan:BPHILLIPS

@@ -52,13 +52,14 @@
       "bugtracker" : {
          "web" : "https://github.com/brianphillips/DateTime-ISO8601-Interval/issues"
       },
+      "homepage" : "http://search.cpan.org/dist/DateTime-ISO8601-Interval/",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/brianphillips/DateTime-ISO8601-Interval.git",
          "web" : "https://github.com/brianphillips/DateTime-ISO8601-Interval"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_authority" : "cpan:BPHILLIPS"
 }
 

@@ -3,7 +3,7 @@ BEGIN {
   $DateTime::ISO8601::Interval::AUTHORITY = 'cpan:BPHILLIPS';
 }
 {
-  $DateTime::ISO8601::Interval::VERSION = '0.001';
+  $DateTime::ISO8601::Interval::VERSION = '0.002';
 }
 
 # ABSTRACT: Fill me in.
@@ -419,7 +419,7 @@ DateTime::ISO8601::Interval - Fill me in.
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
