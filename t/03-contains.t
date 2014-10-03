@@ -2,17 +2,17 @@ use strict;
 use warnings;
 use Test::More qw(no_plan);
 
-use DateTime::ISO8601::Interval;
+use DateTimeX::ISO8601::Interval;
 use DateTime::Format::ISO8601;
 
-ok !eval { DateTime::ISO8601::Interval->parse }, 'fails';
+ok !eval { DateTimeX::ISO8601::Interval->parse }, 'fails';
 
 my $parser = DateTime::Format::ISO8601->new;
 chomp(my @tests = <DATA>);
 foreach my $t(@tests) {
 	next if $t =~ /^(#.*|$)/;
 	my($interval,$criteria,$date) = split(/\t/, $t);
-	my $parsed = DateTime::ISO8601::Interval->parse($interval);
+	my $parsed = DateTimeX::ISO8601::Interval->parse($interval);
 	if($criteria eq 'contains') {
 		ok $parsed->contains($parser->parse_datetime($date)), "$parsed $criteria $date";
 	} else {
@@ -20,7 +20,7 @@ foreach my $t(@tests) {
 	}
 }
 
-my $interval = DateTime::ISO8601::Interval->parse('P7D');
+my $interval = DateTimeX::ISO8601::Interval->parse('P7D');
 my $success = eval { $interval->contains('2013-01-01'); 1 };
 ok !$success, 'contains fails if no start/end';
 like $@, qr{Unable to determine}, 'expected error';

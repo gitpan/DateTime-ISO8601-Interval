@@ -2,15 +2,15 @@ use strict;
 use warnings;
 use Test::More qw(no_plan);
 
-use DateTime::ISO8601::Interval;
+use DateTimeX::ISO8601::Interval;
 
-ok !eval { DateTime::ISO8601::Interval->parse }, 'fails';
+ok !eval { DateTimeX::ISO8601::Interval->parse }, 'fails';
 
 chomp(my @tests = <DATA>);
 foreach my $t(@tests) {
 	next if $t =~ /^(#.*|$)/;
 	my($in,$out,$todo) = split(/\t/, $t);
-	my $parsed = DateTime::ISO8601::Interval->parse($in);
+	my $parsed = DateTimeX::ISO8601::Interval->parse($in);
 	if($todo && $todo =~ s/TODO //) {
 		TODO: {
 			local $TODO = $todo;
@@ -21,20 +21,20 @@ foreach my $t(@tests) {
 	}
 }
 
-my $interval = DateTime::ISO8601::Interval->parse('2013-04-15/2013-04-16', time_zone => 'America/New_York');
+my $interval = DateTimeX::ISO8601::Interval->parse('2013-04-15/2013-04-16', time_zone => 'America/New_York');
 is $interval->start->time_zone->name, 'America/New_York', 'correct time_zone set';
 
-$interval = DateTime::ISO8601::Interval->parse('2013-04-15/16', time_zone => 'America/New_York');
+$interval = DateTimeX::ISO8601::Interval->parse('2013-04-15/16', time_zone => 'America/New_York');
 is $interval->duration->in_units('days'), 2, 'expected number of days';
 
-$interval = DateTime::ISO8601::Interval->parse('2013-04-15/P1D', time_zone => 'America/New_York');
+$interval = DateTimeX::ISO8601::Interval->parse('2013-04-15/P1D', time_zone => 'America/New_York');
 is $interval->duration->in_units('days'), 1, 'expected number of days';
 
-my $success = eval { DateTime::ISO8601::Interval->parse('2013-12-01'); 1 };
+my $success = eval { DateTimeX::ISO8601::Interval->parse('2013-12-01'); 1 };
 ok !$success, 'failed on garbage input';
 like $@, qr{Invalid interval: 2013-12-01}, 'expected error';
 
-$success = eval { DateTime::ISO8601::Interval->parse('2013-01-01/P1D', time_zone => 'fake'); 1 };
+$success = eval { DateTimeX::ISO8601::Interval->parse('2013-01-01/P1D', time_zone => 'fake'); 1 };
 ok !$success, 'failed on bogus time_zone';
 like $@, qr{Invalid time_zone: fake}, 'expected error';
 

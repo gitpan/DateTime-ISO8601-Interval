@@ -1,21 +1,22 @@
 # NAME
 
-DateTime::ISO8601::Interval - Fill me in.
+DateTimeX::ISO8601::Interval - Provides a means of parsing and manipulating ISO-8601 intervals and durations.
 
 # VERSION
 
-version 0.002
+version 0.003
 
 # SYNOPSIS
 
-	my $interval = DateTime::ISO8601::Interval->parse("2013-12-01/15");
-	$interval->contains('2013-12-07'); # true
+        my $interval = DateTimeX::ISO8601::Interval->parse("2013-12-01/15");
+        $interval->contains('2013-12-07'); # true
+        $interval->contains('2013-12-16'); # false
 
-	my $repeating_interval = DateTime::ISO8601::Interval->parse("R12/2013-12-01/P1M");
-	my $iterator = $repeating_interval->iterator;
-	while(my $month_interval = $iterator->()){
-		# $month_interval is jan, feb, mar, ..., dec
-	}
+        my $repeating_interval = DateTimeX::ISO8601::Interval->parse("R12/2013-12-01/P1M");
+        my $iterator = $repeating_interval->iterator;
+        while(my $month_interval = $iterator->()){
+                # $month_interval is jan, feb, mar, ..., dec
+        }
 
 # DESCRIPTION
 
@@ -42,7 +43,7 @@ intervals are show above in the ["SYNOPSIS"](#synopsis) and ["DESCRIPTION"](#des
 ## new
 
 The constructor takes a number of arguments and can be used instead of ["parse"](#parse) to create
-a DateTime::ISO8601::Interval object.  Those arguments are:
+a DateTimeX::ISO8601::Interval object.  Those arguments are:
 
 - start - [DateTime](https://metacpan.org/pod/DateTime) object, must be specified if `duration` is not specified
 - end - [DateTime](https://metacpan.org/pod/DateTime) object, must be specified if `duration` is not specified
@@ -57,9 +58,9 @@ repeats. Defaults to `0`.
 ## start
 
 Returns a [DateTime](https://metacpan.org/pod/DateTime) object representing the beginning of this
-interval. __Note:__ if the interval doesn't include a time component,
+interval. **Note:** if the interval doesn't include a time component,
 the start time will actually be `00:00:00.000` of the following day
-(since the interval covers the entire day). Intervals __include__ the
+(since the interval covers the entire day). Intervals **include** the
 `start` value (in contrast to the `end` value).
 
 This interval can be changed by providing a new [DateTime](https://metacpan.org/pod/DateTime) object as
@@ -69,7 +70,7 @@ date specified, any existing relative ["duration"](#duration) will be cleared.
 ## end
 
 Returns a [DateTime](https://metacpan.org/pod/DateTime) object representing the end of this interval. This
-value is __exclusive__ meaning that the interval ends at exactly this time
+value is **exclusive** meaning that the interval ends at exactly this time
 and does not include this point in time. For instance, an interval that
 is one hour long might begin at `09:38:43` and end at `10:38:43`. The
 `10:38:43` instant is not a part of this interval. Stated another way,
@@ -79,7 +80,7 @@ This interval can be changed by providing a new [DateTime](https://metacpan.org/
 an argument to this method. If this interval has an explicit ["start"](#start)
 date specified, any existing relative ["duration"](#duration) will be cleared.
 
-__Note:__ if the interval doesn't include a time component, the end
+**Note:** if the interval doesn't include a time component, the end
 time will actually be `00:00:00.000` of the following day (since the
 interval covers the entire day). If [DateTime](https://metacpan.org/pod/DateTime) supported a time of day
 like `24:00:00.000` that would be used instead.
@@ -98,7 +99,7 @@ means that the interval should be repeated indefinitely.
 ## iterator
 
 Provides an iterator (as a code ref) that returns new
-[DateTime::ISO8601::Interval](https://metacpan.org/pod/DateTime::ISO8601::Interval) objects for each repitition as defined
+[DateTimeX::ISO8601::Interval](https://metacpan.org/pod/DateTimeX::ISO8601::Interval) objects for each repitition as defined
 by this interval object. Once all the intervals have been returned, the
 iterator will return `undef` for each subsequent call.
 
@@ -107,11 +108,11 @@ A few arguments may be specified to modify the behavior of the iterator:
 - skip - specify the number of intervals to skip for the first
 call to the iterator
 - after - skip all intervals that are before this [DateTime](https://metacpan.org/pod/DateTime)
-object if this [DateTime::ISO8601::Interval](https://metacpan.org/pod/DateTime::ISO8601::Interval) is defined only by a
+object if this [DateTimeX::ISO8601::Interval](https://metacpan.org/pod/DateTimeX::ISO8601::Interval) is defined only by a
 duration (having neither an explicit start or end date) this parameter
 will be used as the start date.
 - until - specify a specific [DateTime](https://metacpan.org/pod/DateTime) to stop returning new
-intervals.  Similar to ["end"](#end), this attribute is __exclusive__.  That is,
+intervals.  Similar to ["end"](#end), this attribute is **exclusive**.  That is,
 once the iterator reaches a point where the interval being returned
 ["contains"](#contains) this value, an `undef` is returned and the iterator stops
 returning new intervals.
@@ -119,11 +120,11 @@ returning new intervals.
 The iterator returned optionally accepts a single argument that can be used to indicate the
 number of iterations to skip on that call.  For instance:
 
-	my $monthly = DateTime::ISO8601::Interval->parse('R12/2013-01-01/P1M');
-	my $iterator = $monthly->iterator;
-	while(my $month = $iterator->(2)) {
-		# $month would be Feb, Apr, Jun, etc
-	}
+        my $monthly = DateTimeX::ISO8601::Interval->parse('R12/2013-01-01/P1M');
+        my $iterator = $monthly->iterator;
+        while(my $month = $iterator->(2)) {
+                # $month would be Feb, Apr, Jun, etc
+        }
 
 ## contains
 
@@ -148,7 +149,7 @@ returned in its full form.
 ## set\_time\_zone
 
 Sets the time\_zone on the underlying [DateTime](https://metacpan.org/pod/DateTime) objects contained in
-this interval (see ["set_time_zone" in DateTime](https://metacpan.org/pod/DateTime#set_time_zone)). Also stores the time zone
+this interval (see ["set\_time\_zone" in DateTime](https://metacpan.org/pod/DateTime#set_time_zone)). Also stores the time zone
 in `$self` for future use by ["contains"](#contains).
 
 # CAVEATS
@@ -194,7 +195,7 @@ this portion of the standard.
 
 ### Round-tripping intervals
 
-The `ISO 8601` standard allows for intervals to be abbreviated such
+The `ISO 8601` standard allows for intervals to be abbreviated such that
 `2013-12-01/05` is equivalent to `2013-12-01/2013-12-05`.  Abbreviated
 intervals should be parsed correctly but by default, when string-ified,
 they are output in their expanded form. If you would like an abbreviated

@@ -2,9 +2,9 @@ use strict;
 use warnings;
 use Test::More qw(no_plan);
 
-use DateTime::ISO8601::Interval;
+use DateTimeX::ISO8601::Interval;
 
-my $c = 'DateTime::ISO8601::Interval';
+my $c = 'DateTimeX::ISO8601::Interval';
 my $interval = $c->parse('P1D', abbreviate => 1);
 is "$interval", 'P1D', 'duration-only';
 

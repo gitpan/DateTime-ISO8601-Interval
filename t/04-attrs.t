@@ -2,14 +2,14 @@ use strict;
 use warnings;
 use Test::More qw(no_plan);
 
-use DateTime::ISO8601::Interval;
+use DateTimeX::ISO8601::Interval;
 
-my $interval = DateTime::ISO8601::Interval->new(
+my $interval = DateTimeX::ISO8601::Interval->new(
 	start => DateTime->new(year => 2013, month => 12, day => 1),
 	duration => DateTime::Duration->new( months => 1)
 );
 
-isa_ok $interval, 'DateTime::ISO8601::Interval';
+isa_ok $interval, 'DateTimeX::ISO8601::Interval';
 isa_ok $interval->start, 'DateTime', 'start';
 isa_ok $interval->end, 'DateTime', 'end';
 isa_ok $interval->duration, 'DateTime::Duration', 'duration';
@@ -34,7 +34,7 @@ is $interval->repeat, 5, 'repeat setter';
 $interval->set_time_zone('America/New_York');
 is $interval->start->time_zone->name, 'America/New_York', 'expected time_zone';
 
-$interval = DateTime::ISO8601::Interval->new(
+$interval = DateTimeX::ISO8601::Interval->new(
 	end => DateTime->new(year => 2013, month => 12, day => 1),
 	duration => DateTime::Duration->new( months => 1)
 );
